@@ -11,7 +11,6 @@ if(process.env.NODE_ENV === 'dev'){
 }
 
 //Puerto env URLDB
-process.env.URLDB = urlDB;
-
+process.env.URLDB = process.env.MONGO_URI;
 //Puerto
 process.env.PORT = process.env.PORT || 3000;
