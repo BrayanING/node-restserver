@@ -14,3 +14,4 @@ let listaSchema = new Schema({
 });
 
 module.exports = mongoose.model('Categoria', categoriaSchema);
+module.exports = mongoose.model('Categoria', categoriaSchema);
